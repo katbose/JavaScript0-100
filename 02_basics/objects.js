@@ -23,3 +23,14 @@ user.email = "kbose0007@gmail.com"
 user.email = "kbose8055@gmail.com"
 console.log(user);
 
+console.log("**************************************");
+user.greeting1 = function(){
+    console.log("Hello user");
+}
+
+user.greeting2 = function(){
+    console.log('Hello User, ${this.name}');
+}
+console.log(user.greeting1());
+console.log(user.greeting2());
+
