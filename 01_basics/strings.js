@@ -1,7 +1,7 @@
 const myName = "Bose"
 const age = 23
 
-// use backticks for string intrpolation
+// use backticks for string interpolation
 console.log(`Hello my name is ${myName} and my age is ${age}`);
 
 //another way to declare string
