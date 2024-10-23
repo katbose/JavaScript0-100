@@ -5,5 +5,5 @@ function makeTea(typeOfTea) {
     return `Making ${typeOfTea}`;
 }
 
-let teaOrder = "Green Tea"
-console.log(makeTea(teaOrder)); //teaOrder inside makeTea function is a argument
+let teaOrder = makeTea("Green Tea")
+console.log(teaOrder); //teaOrder inside makeTea function is a argument
