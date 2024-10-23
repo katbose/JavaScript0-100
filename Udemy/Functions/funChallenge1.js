@@ -2,7 +2,7 @@
 
 //typeOfTea is a parameter or Placeholder
 function makeTea(typeOfTea) {
-    return "Making Green Tea";
+    return `Making ${typeOfTea}`;
 }
 
 let teaOrder = "Green Tea"
