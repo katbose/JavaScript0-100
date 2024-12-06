@@ -35,7 +35,7 @@ console.log(response);
 fetchData()
     .then((data) => {
         console.log(data);
-        return `first then method used on true`
+        return `prints - When 1st .then() method is true`
     })
     
     .then((value) => {
