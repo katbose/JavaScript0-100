@@ -8,9 +8,9 @@ function Car (company, model) {
     this.model = model;
 }
 
-// this let's you know the context of function
-// here this & new have internal linking thus possible to access the internal variable
-/* this Keyword: Refers to the object being created.
+//this let's you know the context of function
+//here this & new have internal linking thus possible to access the internal variable
+/*this Keyword: Refers to the object being created.
 Instantiated with new: When new is used, it:
 Creates a new empty object.
 Sets the object's prototype to the constructor's prototype property.
