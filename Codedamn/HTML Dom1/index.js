@@ -2,8 +2,7 @@ document.querySelector(".heading").innerText = "HTML Dom Manipulation 1";
 
 const allListItems = document.querySelectorAll("ul, li");
 
-for (let i = 0; i < allListItems.length; i++) {
-	const listItem = allListItems[i];
+for (const listItem of allListItems) {
 	listItem.innerText = "YOOOOOOOO";
 }
 
