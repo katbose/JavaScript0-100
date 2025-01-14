@@ -66,8 +66,7 @@ const arr8 = [1, 2, 3, 4, 5, 6, 7, 8];
 const findArr8 = arr8.find((num) => num > 4);
 const filterArr8 = arr8.filter((num) => num > 4);
 const mapArr8 = arr8.map((num) => num > 4);
-console.log(findArr8);
-console.log(filterArr8);
+console.log(findArr8); 
 console.log(mapArr8);
 
 console.log("********question 9*********");
